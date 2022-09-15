@@ -26,3 +26,9 @@ let getStatistics = function (players) {
 
     return players;
 };
+
+// Пример работы: 
+
+// [{"name":"Васька","goals":5,"passes":5,"coefficient":15,"percent":26}, 
+// {"name":"Байт","goals":12,"passes":2,"coefficient":26,"percent":63}, 
+// {"name":"Снежок","goals":2,"passes":7,"coefficient":11,"percent":11}]

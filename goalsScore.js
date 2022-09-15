@@ -14,11 +14,11 @@
 
 let getStatistics = function (players) {
     let sum = 0;
-
+    // Считаю все goals players для свойства percent
     for (let i = 0; i < players.length; i++) {
         sum += players[i].goals
     }
-
+    // Считаю коэффициент полезности (coefficient) и результативность (percent) и добавляю эти свойства в players
     for (let i = 0; i < players.length; i++) {
         players[i].coefficient = players[i].goals * 2 + players[i].passes;
         players[i].percent = Math.round((players[i].goals * 100) / sum)

@@ -1,3 +1,4 @@
+// https://up.htmlacademy.ru/profession/frontender-react-lite/1/lite-prepare/1/module/3/item/7/27
 // Создаем три переменные с ценами на железо
 let processorPrice = {
     'i5': 5000,
